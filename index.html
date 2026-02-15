@@ -36,7 +36,6 @@ body{
 
 .container{
     max-width: 640px;
-    /* فاصله در دسکتاپ */
     margin: 60px auto;
     padding: 40px;
     background: var(--card);
@@ -44,13 +43,10 @@ body{
     box-shadow: 0 10px 40px rgba(0,0,0,0.06);
 }
 
-/* تنظیمات مخصوص موبایل */
 @media (max-width: 768px){
     .container{
-        /* تغییر اصلی اینجاست: */
-        /* 30px از بالا/پایین و 24px از چپ/راست */
         margin: 30px 24px; 
-        padding: 24px; /* پدینگ داخلی کمی کمتر شد برای فضای بیشتر متن */
+        padding: 24px;
     }
 }
 
@@ -93,10 +89,12 @@ p{
     opacity: 0.85;
 }
 
+/* تغییرات فوتر در اینجا اعمال شد */
 .footer{
     margin-top: 40px;
     font-size: 13px;
     color: #999;
+    text-align: center; /* وسط‌چین کردن متن */
 }
 </style>
 </head>
@@ -127,7 +125,7 @@ RAMAN
 <a href="#" class="button">ارتباط با ما</a>
 
 <div class="footer">
-© Raman Jewelry
+© دست‌سازه‌های رامان
 </div>
 
 </div>
